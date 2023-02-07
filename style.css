@@ -346,9 +346,95 @@ button:hover{
 /* Connect Customer Css End */
 
 /* Blog Css Start */
-  
+  .our-blog{
+    padding: 50px 0;
+  }
+  .our-blog h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .our-blog h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 25px;
+  }
+  .blog h3{
+    padding: 12px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0A2640;
+  }
+  .blog span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    padding-left: 10px;
+  }
+  .blog p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 20px;
+  }
+  .blog-writer{
+    display: flex;
+   align-items: center;
+   gap: 12px;
+  }
+  .blog-writer h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  .load-more-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .our-blog button{
+    padding: 16px 56px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0A2640;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+  }
+  .our-blog button:hover{
+    background-color: #000000;
+    color: #F1F1F1;
+  }
 /* Blog Css End */
 
+/* Contact-us Css Start */
+  
+/* Contact-us Css End */
 
 
 
@@ -396,7 +482,7 @@ button:hover{
 
 
 
-/* 320px */
+/* 340px */
 @media screen and (max-width: 340px) {
   nav button{
     display: none;
@@ -404,6 +490,12 @@ button:hover{
   .customer-card{
     height: 100%;
     padding: 25px;
+  }
+  .our-blog{
+    padding: 20px;
+  }
+  .blog img:first{
+    width: 100%;
   }
 }
 
