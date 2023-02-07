@@ -247,12 +247,107 @@ button:hover{
 /* Customer Css Start */
 .customer{
   background: #0A2640;
+  padding: 75px 0;
+}
+.customer-header{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: flex-end;
+}
+.customer-header h3{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.cus-header-img{
+  display: flex;
+  gap: 28px;
+}
+.customer-card{
+  width: 350px;
+  height: 322px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 40px 40px 0 40px;
+  transition: 0.5s;
+}
+.customers-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  gap: 20px;
+}
+.customer-card h2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.customer-profile{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 40px;
+}
+.customer-card:hover{
+  height: 370px;
+  cursor: pointer;
 }
 
 /* Customer Css End */
 
 
+/* Connect Customer Css Start */
+  .connected-customer-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line1{
+    width: 500px;
+    height: 1px;
+    background: #C4C4C4;
+  }
+  .connected-customer-text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px 0;
+  }
+  .connected-customer-text h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+  }
+  .more{
+   padding: 16px 0;
+  }
+  .connected-customer-text h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+/* Connect Customer Css End */
 
+/* Blog Css Start */
+  
+/* Blog Css End */
 
 
 
@@ -289,14 +384,26 @@ button:hover{
   header{
     padding: 15px;
   }
+  .customer{
+    padding: 15px;
+  }
+  .customer-header{
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
 }
 
 
 
 /* 320px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   nav button{
     display: none;
+  }
+  .customer-card{
+    height: 100%;
+    padding: 25px;
   }
 }
 
@@ -308,6 +415,15 @@ button:hover{
     gap: 0;
     padding: 20px;
   }
+  .connected-customer{
+    padding: 15px;
+  }
+  .connected-customer-text{
+    gap: 20px;
+  }
+  .connected-customer-img img{
+    width: 100%;
+  }
 }
 
 
@@ -315,6 +431,9 @@ button:hover{
 
 @media screen and (max-width:492px) {
   .connect-img{
+    width: 100%;
+  }
+  .line1{
     width: 100%;
   }
 }
