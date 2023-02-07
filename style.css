@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+button:hover{
+  cursor: pointer;
+}
 
 /* Header Css Start */
   header{
@@ -193,6 +195,67 @@
 /* Service Css End */
 
 
+/* Connect Css Start */
+  .connect{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+  }
+  .connect-text h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 40px;
+  }
+  .connect-list{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  .connect-list h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .connect-text button{
+    padding: 16px 56px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #0A2640;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+  }
+  .connect-text button:hover{
+    background: #000000;
+  }
+/* Connect Css End */
+.connect-one-main{
+  height: 600px;
+}
+
+/* Customer Css Start */
+.customer{
+  background: #0A2640;
+}
+
+/* Customer Css End */
+
+
+
+
+
+
 
 
 
@@ -234,5 +297,24 @@
 @media screen and (max-width: 320px) {
   nav button{
     display: none;
+  }
+}
+
+
+/* 1130px */
+
+@media screen and (max-width: 1120px) {
+  .connect{
+    gap: 0;
+    padding: 20px;
+  }
+}
+
+
+/* 492px */
+
+@media screen and (max-width:492px) {
+  .connect-img{
+    width: 100%;
   }
 }
